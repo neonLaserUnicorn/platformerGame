@@ -1,0 +1,8 @@
+make.exe all --dry-run --keep-going --print-directory
+make.exe: Entering directory `d:/Projects/fff'
+g++ -c main.cpp Player.cpp Platform.cpp -Isrc/include
+ 
+g++ main.o Player.o Platform.o -o sfml-app -Lsrc/lib -lsfml-graphics -lsfml-system -lsfml-window
+ 
+make.exe: Leaving directory `d:/Projects/fff'
+ 

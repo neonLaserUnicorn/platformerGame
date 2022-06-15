@@ -1,0 +1,314 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# ���� ������ Make, ���������� Wed Jun 15 15:12:36 2022
+
+# ����������
+
+# ��������������
+<D = $(patsubst %/,%,$(dir $<))
+# ��������������
+?F = $(notdir $?)
+# Make-����
+MAKEFLAGS = Rrqp
+# ���������� � �����
+VSCODE_LOG_NATIVE = false
+# ��������������
+?D = $(patsubst %/,%,$(dir $?))
+# ��������������
+@D = $(patsubst %/,%,$(dir $@))
+# ���������� � �����
+HOMEDRIVE = C:
+# ��������������
+@F = $(notdir $@)
+# ��������������
+^D = $(patsubst %/,%,$(dir $^))
+# Make-����
+CURDIR := d:/Projects/fff
+# �� ���������
+SHELL :=  
+C:/Program Files/Git/bin/sh.exe
+# ���������� � �����
+WINDIR = C:\Windows
+# ���������� � �����
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"4165c719fdf7a78444ed970b4565033b.ru","_translationsConfigFile":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\tcf.json","_cacheRoot":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru","_resolvedLanguagePackCoreLocation":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\corrupted.info","_languagePackSupport":true}
+# ���������� � �����
+ONEDRIVE = C:\Users\astra\OneDrive
+# ���������� � �����
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# Make-���� (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# ���������� � �����
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# ���������� � �����
+TMP = C:\Users\astra\AppData\Local\Temp
+# ���������� � �����
+VSCODE_VERBOSE_LOGGING = true
+# ���������� � �����
+PROGRAMW6432 = C:\Program Files
+# ���������� � �����
+PROGRAMDATA = C:\ProgramData
+# ���������� � �����
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8026fa03-80d1-4344-9587-aa7747fd1bab-sock
+# ���������� � �����
+VSCODE_CWD = C:\Microsoft VS Code
+# ���������� � �����
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\astra\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Microsoft VS Code\bin;D:\flutter\bin;C:\Program Files\Git\bin;C:\Users\astra\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GnuWin32\bin;
+# ���������� � �����
+COMMONPROGRAMW6432 = C:\P 
+rogram Files\Common Files
+# ���������� � �����
+PROCESSOR_ARCHITECTURE = x86
+# ���������� � �����
+USERPROFILE = C:\Users\astra
+# ���������� � �����
+ALLUSERSPROFILE = C:\ProgramData
+# ���������� � �����
+VSCODE_LOG_STACK = false
+# ���������� � �����
+NUMBER_OF_PROCESSORS = 4
+# ���������� � �����
+ELECTRON_RUN_AS_NODE = 1
+# �� ���������
+.FEATURES := target-specific order-only second-expansion else-if archives
+# ��������������
+%F = $(notdir $%)
+# ���������� � �����
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_107 
+68_XEKIHQQJOWCFMEFW
+# ���������� � �����
+VSCODE_PIPE_LOGGING = true
+# ���������� � �����
+COMPUTERNAME = DESKTOP-9OLNPHM
+# ���������� � �����
+PROGRAMFILES = C:\Program Files (x86)
+# ���������� � �����
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ���������� � �����
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ���������� � �����
+USERNAME = astra
+# ���������� � �����
+PUBLIC = C:\Users\Public
+# ���������� � �����
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ���������� � �����
+VSCODE_CODE_CACHE_PATH = C:\Users\astra\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# ���������� � �����
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# ���������� � �����
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ���������� � �����
+LOGONSERVER = \\DESKTOP-9OLNPHM
+# ���������� � �����
+ONEDRIVECONSUMER = C:\Users\astra\OneDrive
+# ���������� � �����
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ���������� � �����
+USERDOMAIN = DESKTOP-9OLNPHM
+# �� ���������
+MAKE = $(MAKE_COMMAND)
+# �� ���������
+MAKECMDGOALS := all
+# �� ���������
+MAKE_VERSION := 3.81
+# Make-����
+.DEFAULT_GOAL := all
+# ���������� � �����
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# ��������������
+%D = $(patsubst %/,%,$(dir $%))
+# ���������� � �����
+LOCALAPPDATA = C:\Users\astra\AppData\Local
+# ���������� � �����
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# �� ���������
+MAKE_COMMAND := make.exe
+# ���������� � �����
+PROCESSOR_ARCHITEW6432 = AMD64
+# �� ���������
+.VARIABLES := 
+# ��������������
+*F = $(notdir $*)
+# ���������� � �����
+PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD
+# ���������� � �����
+OS = Windows_NT
+# ���������� � �����
+VSCODE_IPC_HOOK = \\.\pipe\9d391008a37e87a8532a26f1d4f5f6af-1.68.0-main-sock
+# ���������� � �����
+HOMEPATH = \Users\astra
+# ���������� � �����
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ���������� � �����
+PROMPT = $P$G
+# ���������� � �����
+MFLAGS = -Rrqp
+# ��������������
+*D = $(patsubst %/,%,$(dir $*))
+# ���������� � �����
+SYSTEMROOT = C:\Windows
+# ��������������
++D = $(patsubst %/,%,$(dir $+))
+# ��������������
++F = $(notdir $+)
+# ���������� � �����
+APPDATA = C:\Users\astra\AppData\Roaming
+# ���������� � �����
+TEMP = C:\Users\astra\AppData\Local\Temp
+# ���������� � �����
+COMSPEC = C:\Windows\system32\cmd.exe
+# �� ���������
+MAKEFILES := 
+# ��������������
+<F = $(notdir $<)
+# ���������� � �����
+LC_ALL = C
+# ��������������
+^F = $(notdir $^)
+# �� ���������
+SUFFIXES := 
+# ���������� � �����
+SYSTEMDRIVE = C:
+# ���������� � �����
+SESSIONNAME = Console
+# ���������� � �����
+PROCESSOR_REVISION = 1001
+# ���������� � �����
+MAKELEVEL := 0
+# ���������� � �����
+LANG = C
+# ���������� � �����
+PROCESSOR_LEVEL = 21
+# ���������� � �����
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# ���������� � �����
+VSCODE_PID = 10768
+# ���������� � �����
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
+# variable set hash-table stats:
+# Load=89/1024=9%, Rehash=0, Collisions=9/110=8%
+
+# Pattern-specific Variabl 
+e Values
+
+# ��� �������� ���������� ��������� ��� �����
+
+# ��������
+
+# D:\flutter\bin (���� D:/flutter/bin, ����� ����������� 1653914744): 9 ������,��� ������������ �����.
+# C:\Users\astra\AppData\Local\Microsoft\WindowsApps (���� C:/Users/astra/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1653658475): 12 ������,��� ������������ �����.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (���� C:/Windows/System32/WindowsPowerShell/v1.0/, ����� ����������� 1617976699): 31 ������,��� ������������ �����.
+# C:\Windows\System32\Wbem (���� C:/Windows/System32/Wbem, ����� ����������� 1647125071): 155 ������,��� ������������ �����.
+# . (���� d:/Projects/fff, ����� ����������� 1655295136): 28 ������,��� ������������ �����.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (���� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����� ����������� 1648422746): 10 ������,��� ������������ �����.
+# C:\Microsoft VS Code\bin (���� C:/Microsoft VS Code/bin, ����� ����������� 1654956203): 4 ������,��� ������������ �����.
+# C:\Windows\System32\OpenSSH\: ���������� �������� �������� ������� stat.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (���� C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����� ����������� 1644502097): 5 ������,��� ������������ �����.
+# C:\Windows (���� C:/Windows, ����� ����������� 1652713252): 115 ������,��� ������������ �����.
+# C:\Program Files\Git\bin (���� C:/Program Files/Git/bin, ����� ����������� 1643518633): 5 ������,��� ������������ ����� �� ������� ������.
+# C:\Program Files\Cloudflare\Cloudflare WARP\ (���� C:/Program Files/Cloudflare/Cloudflare WARP/, ����� ����������� 1654264550): 11 ������,��� ������������ �����.
+# C:\msys64\mingw64\bin (���� C:/msys64/mingw64/bin, ����� ����������� 1643382556): 207 ������,��� ������������ �����.
+# C:\Program Files (x86)\AMD\ATI.ACE\Core-Static: ���������� �������� �������� ������� stat.
+# C:\Program Files\Git\cmd (���� C:/Program Files/Git/cmd, ����� ����������� 1643518745): 8 ������,��� ������������ �����.
+# C:\Windows\sy 
+stem32 (���� C:/Windows/system32, ����� ����������� 1655204710): 3044 ������,��� ������������ �����.
+
+# 3644 ������,��� impossibilities in 16 directories.
+
+# Implicit Rules
+
+# ������� ������ ���.
+
+# �����
+
+link:
+#  ����� ������� ������ �� ������������.
+#  ����� ��������� �� ���� �� �����������.
+#  ���� �� ��� ��������.
+#  �������, ������� ������� ���������  (�� `makefile', ������ 7):
+	g++ main.o Player.o Platform.o -o sfml-app -Lsrc/lib -lsfml-graphics -lsfml-system -lsfml-window
+	
+
+all: compile link
+#  ����, ���������� �� ��������� ������.
+#  ������������ ����� ������� ������
+#  ���� �� ����������.
+#  ���� ��� ��������.
+#  ������ ���� ��������� (����� ���� -q).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+# �� �������� �����:
+.DEFAULT:
+#  ����� ������� ������ �� ������������.
+#  ����� ��������� �� ���� �� �����������.
+#  ���� �� ��� ��������.
+
+# �� �������� �����:
+makefile:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-06-15 15:12:09
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+.SUFFIXES:
+#  ����� ������� ������ �� ������������.
+#  ����� ��������� �� ���� �� �����������.
+#  ���� �� ��� ��������.
+
+compile:
+#  ����� ������� ������ �� ������������.
+#  ������ �������� ��� ������������ �������: `'
+#  ���� �� ����������.
+#  ���� ��� ��������.
+#  ������ ���� ��������� (����� ���� -q).
+# ��������������
+# @ := compile
+# ��������������
+# % := 
+# ��������������
+# * := 
+# ��������������
+# + := 
+# ��������������
+# | := 
+# ��������������
+# < := 
+# ��������������
+# ^ := 
+# ��������������
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 4):
+	g++ -c main.cpp Player.cpp Platform.cpp -Isrc/include
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/21=0%
+# ���� ������ VPATH
+
+# �� ��������� ���� ������ `vpath'.
+
+# �� ��������� ����� (���������� `VPATH') ���� �� 
+����.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# ������ ���� ������ Make ��������� Wed Jun 15 15:12:36 2022
+
+ 
