@@ -21,5 +21,6 @@ public:
     float top(){return _top;}
     float bottom(){return _bot;}
     void update();
+    sf::View getView(){return _view;}
     sf::Vector2f checkBoundries(sf::Vector2f newPos);
 };

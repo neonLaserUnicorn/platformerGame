@@ -7,7 +7,7 @@ int main()
 {
     sf::RenderWindow window(sf::VideoMode(1280, 720), "SFML works!");
     Player player;
-    Camera camera(&player, sf::FloatRect(0, 0, 1000, 350));
+    Camera camera(&player, sf::FloatRect(0, 50, 1000, 350));
     Platform* plats = new Platform[objectsQuantity];
     for(int i = 0; i < objectsQuantity;++i)
     {
@@ -24,6 +24,7 @@ int main()
         }
         player.move();
         camera.update();
+        window.setView(camera.getView());
         window.clear();
         window.draw(player.getSprite());
         for(int i = 0; i < objectsQuantity; ++i)

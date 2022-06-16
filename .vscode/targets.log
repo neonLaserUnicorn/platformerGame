@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# ���� ������ Make, ���������� Fri Jun 17 00:24:36 2022
+# ���� ������ Make, ���������� Fri Jun 17 00:41:43 2022
 
 # ����������
 
@@ -201,7 +201,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 # C:\Users\astra\AppData\Local\Microsoft\WindowsApps (���� C:/Users/astra/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1653658475): 12 ������,��� ������������ �����.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (���� C:/Windows/System32/WindowsPowerShell/v1.0/, ����� ����������� 1617976699): 31 ������,��� ������������ �����.
 # C:\Windows\System32\Wbem (���� C:/Windows/System32/Wbem, ����� ����������� 1655329174): 155 ������,��� ������������ �����.
-# . (���� d:/Projects/fff, ����� ����������� 1655410776): 22 ������,��� ������������ �����.
+# . (���� d:/Projects/fff, ����� ����������� 1655415686): 23 ������,��� ������������ �����.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (���� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����� ����������� 1648422746): 10 ������,��� ������������ �����.
 # C:\Microsoft VS Code\bin (���� C:/Microsoft VS Code/bin, ����� ����������� 1655377890): 4 ������,��� ������������ �����.
 # C:\Windows\System32\OpenSSH\: ���������� �������� �������� ������� stat.
@@ -214,7 +214,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 # C:\Program Files\Git\cmd (���� C:/Program Files/Git/cmd, ����� ����������� 1643518745): 8 ������,��� ������������ �����.
 # C:\Windows\system32 (���� C:/Windows/system32, ����� ����������� 1655407625): 3046 ������,��� ������������ �����.
 
-# 3640 ������,��� impossibilities 
+# 3641 ������,��� impossibilities 
  in 16 directories.
 
 # Implicit Rules
@@ -228,7 +228,7 @@ link:
 #  ����� ��������� �� ���� �� �����������.
 #  ���� �� ��� ��������.
 #  �������, ������� ������� ���������  (�� `makefile', ������ 7):
-	g++ main.o Player.o Platform.o Camera.o -o sfml-app -Lsrc/lib -lsfml-graphics -lsfml-system -lsfml-window
+	g++ main.o Player.o Camera.o Platform.o -o sfml-app -Lsrc/lib -lsfml-graphics -lsfml-system -lsfml-window
 	
 
 all: compile link
@@ -250,7 +250,7 @@ all: compile link
 # �� �������� �����:
 makefile:
 #  ������������ ����� ������� ������
-#  ����� ���������� ��������� 2022-06-17 00:24:33
+#  ����� ���������� ��������� 2022-06-17 00:41:15
 #  ���� ��� ��������.
 #  ������� ���������.
 # variable set hash-table stats:
@@ -288,7 +288,7 @@ compile:
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/10=10%
 #  �������, ������� ������� ���������  (�� `makefile', ������ 4):
-	g++ -c lib/main.cpp lib/Player.cpp lib/Platform.cpp lib/Camera.cpp -Isrc/include
+	g++ -c lib/main.cpp lib/Player.cpp lib/Camera.cpp lib/Platform.cpp -Isrc/include
 	
 
 # files hash-table stats:
@@ -305,6 +305,6 @@ compile:
  = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# ������ ���� ������ Make ��������� Fri Jun 17 00:24:36 2022
+# ������ ���� ������ Make ��������� Fri Jun 17 00:41:43 2022
 
  

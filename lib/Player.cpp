@@ -48,7 +48,7 @@ void Player::move()
         if(abs(_speed) < _maxSpeed)
             _speed-=0.01f;
     }
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::D))
     {
         start_move = true;
         if(abs(_speed) < _maxSpeed)
@@ -64,3 +64,5 @@ void Player::move()
     _pos += dpos;
     _form.setPosition(_pos);
 }
+
+sf::Vector2f Player::getPosition(){return this->_pos;}
