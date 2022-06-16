@@ -3,15 +3,16 @@
 class Player
 {
 private:
-    float maxSpeed = 1.f;
-    float speed;
-    float maxFallSpeed = 2.f;
-    float fallSpeed;
-    sf::Vector2f pos;
-    sf::CircleShape form;
+    float _maxSpeed = 1.f;
+    float _speed;
+    float _maxFallSpeed = 2.f;
+    float _fallSpeed;
+    sf::Vector2f _pos;
+    sf::CircleShape _form;
 public:
     Player();
     void fall();
     void move();
-    sf::Drawable& getSprite(){return form;}
+    sf::Drawable& getSprite(){return _form;}
+    sf::Vector2f getPosition();
 };

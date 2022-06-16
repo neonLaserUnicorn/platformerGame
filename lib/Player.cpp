@@ -2,20 +2,20 @@
 #include "Objects.h"
 
 Player::Player():
-    form(sf::CircleShape(20.f,3))
+    _form(sf::CircleShape(20.f,3))
 {
-    form.setFillColor(sf::Color::Red);
-    pos = {0, 0};
-    speed = 0.f;   
+    _form.setFillColor(sf::Color::Red);
+    _pos = {0, 0};
+    _speed = 0.f;   
 }
 
 void Player::fall()
 {
     bool endFalling = false;
     sf::FloatRect botCollider = {
-        form.getPosition().x,
-        form.getRadius() * 2 + form.getPosition().y,
-        form.getRadius() * 2,
+        _form.getPosition().x,
+        _form.getRadius() * 2 + _form.getPosition().y,
+        _form.getRadius() * 2,
         2.f
     };
     for(int i = 0; i < objectsQuantity; ++i)
@@ -29,38 +29,38 @@ void Player::fall()
         endFalling = botCollider.intersects(toIntersect);
         if(endFalling)
         {
-            fallSpeed = 0;
+            _fallSpeed = 0;
             return;
         }
     }
-    if(fallSpeed < maxFallSpeed)
-        fallSpeed += 0.01f;
+    if(_fallSpeed < _maxFallSpeed)
+        _fallSpeed += 0.01f;
 }
 
 void Player::move()
 {
     fall();
     bool start_move = false;
-    sf::Vector2f _pos = {0,0};
+    sf::Vector2f dpos = {0,0};
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::A))
     {
         start_move = true;
-        if(abs(speed) < maxSpeed)
-            speed-=0.01f;
+        if(abs(_speed) < _maxSpeed)
+            _speed-=0.01f;
     }
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::D))
     {
         start_move = true;
-        if(abs(speed) < maxSpeed)
-            speed+=0.01f;
+        if(abs(_speed) < _maxSpeed)
+            _speed+=0.01f;
     }
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)&&fallSpeed == 0)
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)&&_fallSpeed == 0)
     {
-        fallSpeed = -maxFallSpeed;
+        _fallSpeed = -_maxFallSpeed;
     }
     if(!start_move)
-        speed = 0.f;
-    _pos = {speed, fallSpeed};
-    pos += _pos;
-    form.setPosition(pos);
+        _speed = 0.f;
+    dpos = {_speed, _fallSpeed};
+    _pos += dpos;
+    _form.setPosition(_pos);
 }

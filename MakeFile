@@ -1,7 +1,7 @@
 all: compile link
 
 compile:
-	g++ -c lib/main.cpp lib/Player.cpp lib/Platform.cpp -Isrc/include
+	g++ -c lib/main.cpp lib/Player.cpp lib/Platform.cpp lib/Camera.cpp -Isrc/include
 
 link:
-	g++ main.o Player.o Platform.o -o sfml-app -Lsrc/lib -lsfml-graphics -lsfml-system -lsfml-window
+	g++ main.o Player.o Platform.o Camera.o -o sfml-app -Lsrc/lib -lsfml-graphics -lsfml-system -lsfml-window

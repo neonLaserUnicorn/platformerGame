@@ -1,9 +1,9 @@
 #include "Platform.h"
 
-Platform::Platform(sf::Vector2f _pos, sf::Vector2f _endPos):
-    pos(_pos), endPos(_endPos)
+Platform::Platform(sf::Vector2f pos, sf::Vector2f endPos):
+    _pos(pos), _endPos(endPos)
 {
-    form.setFillColor(sf::Color::Cyan);
-    form.setSize(endPos - pos);
-    form.setPosition(pos);
+    _form.setFillColor(sf::Color::Cyan);
+    _form.setSize(_endPos - _pos);
+    _form.setPosition(_pos);
 }
