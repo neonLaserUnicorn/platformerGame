@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# ���� ������ Make, ���������� Wed Jun 15 15:12:36 2022
+# ���� ������ Make, ���������� Thu Jun 16 23:19:27 2022
 
 # ����������
 
@@ -38,7 +38,8 @@ C:/Program Files/Git/bin/sh.exe
 # ���������� � �����
 WINDIR = C:\Windows
 # ���������� � �����
-VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"4165c719fdf7a78444ed970b4565033b.ru","_translationsConfigFile":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\tcf.json","_cacheRoot":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru","_resolvedLanguagePackCoreLocation":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"4165c719fdf7a78444ed970b4565033b.ru","_translationsConfigFile":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\tcf.json","_cacheRoot":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru","_resolvedLanguagePackCoreLocation":"C:\\Users\\astra\\AppData\\Roaming\\Cod 
+e\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\astra\\AppData\\Roaming\\Code\\clp\\4165c719fdf7a78444ed970b4565033b.ru\\corrupted.info","_languagePackSupport":true}
 # ���������� � �����
 ONEDRIVE = C:\Users\astra\OneDrive
 # ���������� � �����
@@ -46,26 +47,26 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # Make-���� (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # ���������� � �����
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# ���������� � �����
 TMP = C:\Users\astra\AppData\Local\Temp
-# ���������� � �����
+# ��������� 
+� � �����
 VSCODE_VERBOSE_LOGGING = true
 # ���������� � �����
 PROGRAMW6432 = C:\Program Files
 # ���������� � �����
 PROGRAMDATA = C:\ProgramData
 # ���������� � �����
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8026fa03-80d1-4344-9587-aa7747fd1bab-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d3c0e2de-3dec-42c0-a771-2477ebb791a2-sock
 # ���������� � �����
 VSCODE_CWD = C:\Microsoft VS Code
 # ���������� � �����
-PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\astra\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Microsoft VS Code\bin;D:\flutter\bin;C:\Program Files\Git\bin;C:\Users\astra\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GnuWin32\bin;
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\ 
+OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\astra\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Microsoft VS Code\bin;D:\flutter\bin;C:\Program Files\Git\bin;C:\Users\astra\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GnuWin32\bin;
 # ���������� � �����
-COMMONPROGRAMW6432 = C:\P 
-rogram Files\Common Files
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # ���������� � �����
-PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHIT 
+ECTURE = x86
 # ���������� � �����
 USERPROFILE = C:\Users\astra
 # ���������� � �����
@@ -81,8 +82,7 @@ ELECTRON_RUN_AS_NODE = 1
 # ��������������
 %F = $(notdir $%)
 # ���������� � �����
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_107 
-68_XEKIHQQJOWCFMEFW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10996_EZEMYSMNUWBEZIFC
 # ���������� � �����
 VSCODE_PIPE_LOGGING = true
 # ���������� � �����
@@ -100,7 +100,7 @@ PUBLIC = C:\Users\Public
 # ���������� � �����
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # ���������� � �����
-VSCODE_CODE_CACHE_PATH = C:\Users\astra\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\astra\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # ���������� � �����
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # ���������� � �����
@@ -142,7 +142,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD
 # ���������� � �����
 OS = Windows_NT
 # ���������� � �����
-VSCODE_IPC_HOOK = \\.\pipe\9d391008a37e87a8532a26f1d4f5f6af-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\9d391008a37e87a8532a26f1d4f5f6af-1.68.1-main-sock
 # ���������� � �����
 HOMEPATH = \Users\astra
 # ���������� � �����
@@ -178,7 +178,8 @@ SUFFIXES :=
 # ���������� � �����
 SYSTEMDRIVE = C:
 # ���������� � �����
-SESSIONNAME = Console
+SESSIONNAME =  
+Console
 # ���������� � �����
 PROCESSOR_REVISION = 1001
 # ���������� � �����
@@ -188,40 +189,38 @@ LANG = C
 # ���������� � �����
 PROCESSOR_LEVEL = 21
 # ���������� � �����
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# ���������� � �����
-VSCODE_PID = 10768
+VSCODE_PID = 10996
 # ���������� � �����
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 # variable set hash-table stats:
-# Load=89/1024=9%, Rehash=0, Collisions=9/110=8%
+# Load=87/1024=8%, Rehash=0, Collisions=9/108=8%
 
-# Pattern-specific Variabl 
-e Values
+# Pattern-specific Variable Values
 
 # ��� �������� ���������� ��������� ��� �����
 
 # ��������
 
-# D:\flutter\bin (���� D:/flutter/bin, ����� ����������� 1653914744): 9 ������,��� ������������ �����.
+# D:\flutter\bin (���� D:/flutter/bin, ����� ����������� 165391474 
+4): 9 ������,��� ������������ �����.
 # C:\Users\astra\AppData\Local\Microsoft\WindowsApps (���� C:/Users/astra/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1653658475): 12 ������,��� ������������ �����.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (���� C:/Windows/System32/WindowsPowerShell/v1.0/, ����� ����������� 1617976699): 31 ������,��� ������������ �����.
-# C:\Windows\System32\Wbem (���� C:/Windows/System32/Wbem, ����� ����������� 1647125071): 155 ������,��� ������������ �����.
-# . (���� d:/Projects/fff, ����� ����������� 1655295136): 28 ������,��� ������������ �����.
+# C:\Windows\System32\Wbem (���� C:/Windows/System32/Wbem, ����� ����������� 1655329174): 155 ������,��� ������������ �����.
+# . (���� d:/Projects/fff, ����� ����������� 1655410741): 22 ������,��� ������������ �����.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (���� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����� ����������� 1648422746): 10 ������,��� ������������ �����.
-# C:\Microsoft VS Code\bin (���� C:/Microsoft VS Code/bin, ����� ����������� 1654956203): 4 ������,��� ������������ �����.
+# C:\Microsoft VS Code\bin (���� C:/Microsoft VS Code/bin, ����� ����������� 1655377890): 4 ������,��� ������������ �����.
 # C:\Windows\System32\OpenSSH\: ���������� �������� �������� ������� stat.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (���� C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����� ����������� 1644502097): 5 ������,��� ������������ �����.
-# C:\Windows (���� C:/Windows, ����� ����������� 1652713252): 115 ������,��� ������������ �����.
+# C:\Windows (���� C:/Windows, ����� ����������� 1655329167): 115 ������,��� ������������ �����.
 # C:\Program Files\Git\bin (���� C:/Program Files/Git/bin, ����� ����������� 1643518633): 5 ������,��� ������������ ����� �� ������� ������.
 # C:\Program Files\Cloudflare\Cloudflare WARP\ (���� C:/Program Files/Cloudflare/Cloudflare WARP/, ����� ����������� 1654264550): 11 ������,��� ������������ �����.
 # C:\msys64\mingw64\bin (���� C:/msys64/mingw64/bin, ����� ����������� 1643382556): 207 ������,��� ������������ �����.
 # C:\Program Files (x86)\AMD\ATI.ACE\Core-Static: ���������� �������� �������� ������� stat.
 # C:\Program Files\Git\cmd (���� C:/Program Files/Git/cmd, ����� ����������� 1643518745): 8 ������,��� ������������ �����.
-# C:\Windows\sy 
-stem32 (���� C:/Windows/system32, ����� ����������� 1655204710): 3044 ������,��� ������������ �����.
+# C:\Windows\system32 (���� C:/Windows/system32, ����� ����������� 1655407625): 3046 ������,��� ������������ �����.
 
-# 3644 ������,��� impossibilities in 16 directories.
+# 3640 ������,��� impossibilities 
+ in 16 directories.
 
 # Implicit Rules
 
@@ -242,7 +241,8 @@ all: compile link
 #  ������������ ����� ������� ������
 #  ���� �� ����������.
 #  ���� ��� ��������.
-#  ������ ���� ��������� (����� ���� -q).
+#  ������ ���� ��� 
+������ (����� ���� -q).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/2=0%
 
@@ -255,14 +255,15 @@ all: compile link
 # �� �������� �����:
 makefile:
 #  ������������ ����� ������� ������
-#  ����� ���������� ��������� 2022-06-15 15:12:09
+#  ����� ���������� ��������� 2022-06-16 23:18:42
 #  ���� ��� ��������.
 #  ������� ���������.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # �� �������� �����:
-.SUFFIXES:
+.SUFFIXE 
+S:
 #  ����� ������� ������ �� ������������.
 #  ����� ��������� �� ���� �� �����������.
 #  ���� �� ��� ��������.
@@ -289,10 +290,11 @@ compile:
 # ^ := 
 # ��������������
 # ? := 
-# variable set hash-table stats:
+# varia 
+ble set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/10=10%
 #  �������, ������� ������� ���������  (�� `makefile', ������ 4):
-	g++ -c main.cpp Player.cpp Platform.cpp -Isrc/include
+	g++ -c lib/main.cpp lib/Player.cpp lib/Platform.cpp -Isrc/include
 	
 
 # files hash-table stats:
@@ -301,14 +303,14 @@ compile:
 
 # �� ��������� ���� ������ `vpath'.
 
-# �� ��������� ����� (���������� `VPATH') ���� �� 
-����.
+# �� ��������� ����� (���������� `VPATH') ���� ������.
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache size: total = 4096 / max = 4096 / min = 4096 / a 
+vg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# ������ ���� ������ Make ��������� Wed Jun 15 15:12:36 2022
+# ������ ���� ������ Make ��������� Thu Jun 16 23:19:27 2022
 
  
