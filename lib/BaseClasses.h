@@ -5,6 +5,7 @@ class Object
 {
 protected:
     sf::Vector2f _pos;
+    sf::FloatRect _hitbox;
 public:
     Object(){}
     sf::Vector2f getPosition(){return _pos;}
@@ -17,7 +18,7 @@ class Movable : public Object
 protected:
     float _maxSpeed = 1.f;
     float _speed;
-    float _maxFallSpeed = 2.f;
+    float _maxFallSpeed = 1.f;
     float _fallSpeed;
 public:
     Movable(){}

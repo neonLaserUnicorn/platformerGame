@@ -1,8 +1,9 @@
 #include "Player.h"
 #include "Objects.h"
+#include <iostream>
 
 Player::Player():
-    _form(sf::CircleShape(20.f,3))
+    _form(sf::CircleShape(20.f,5))
 {
     _form.setFillColor(sf::Color::Red);
     _pos = {0, 0};
@@ -16,18 +17,18 @@ void Player::fall()
         _form.getPosition().x,
         _form.getRadius() * 2 + _form.getPosition().y,
         _form.getRadius() * 2,
-        2.f
-    };
+        1.f
+    }; 
     for(int i = 0; i < objectsQuantity; ++i)
     {
         sf::FloatRect toIntersect = {
             mapObjects[i].startX,
             mapObjects[i].startY,
             mapObjects[i].endX - mapObjects[i].startX,
-            2
+            1.f
         };
-        endFalling = botCollider.intersects(toIntersect);
-        if(endFalling)
+        endFalling = _hitbox.intersects(toIntersect) && _hitbox.top+_hitbox.height -1 <= toIntersect.top;
+        if(endFalling && _fallSpeed >=0)
         {
             _fallSpeed = 0;
             return;
@@ -65,6 +66,12 @@ void Player::move()
 }
 void Player::update()
 {
+    _hitbox = {
+        _pos.x,
+        _pos.y - 2,
+        _form.getRadius() * 2,
+        _form.getRadius() * 2,
+    };
     fall();
     move();
 }
