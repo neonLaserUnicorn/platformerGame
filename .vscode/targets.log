@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# ���� ������ Make, ���������� Fri Jun 17 00:41:43 2022
+# ���� ������ Make, ���������� Fri Jun 17 09:36:29 2022
 
 # ����������
 
@@ -33,7 +33,8 @@ HOMEDRIVE = C:
 # Make-����
 CURDIR := d:/Projects/fff
 # �� ���������
-SHELL := C:/Program Files/Git/bin/sh.exe
+SHELL :=  
+C:/Program Files/Git/bin/sh.exe
 # ���������� � �����
 WINDIR = C:\Windows
 # ���������� � �����
@@ -47,14 +48,15 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 MAKEFILE_LIST :=  makefile
 # ���������� � �����
 TMP = C:\Users\astra\AppData\Local\Temp
-# ���������� � �����
+# ��������� 
+� � �����
 VSCODE_VERBOSE_LOGGING = true
 # ���������� � �����
 PROGRAMW6432 = C:\Program Files
 # ���������� � �����
 PROGRAMDATA = C:\ProgramData
 # ���������� � �����
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d3c0e2de-3dec-42c0-a771-2477ebb791a2-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-90984621-0e07-43b0-b94f-5e27a97aef71-sock
 # ���������� � �����
 VSCODE_CWD = C:\Microsoft VS Code
 # ���������� � �����
@@ -78,7 +80,7 @@ ELECTRON_RUN_AS_NODE = 1
 # ��������������
 %F = $(notdir $%)
 # ���������� � �����
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10996_EZEMYSMNUWBEZIFC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6888_NVSZCXAEWLOHDSUZ
 # ���������� � �����
 VSCODE_PIPE_LOGGING = true
 # ���������� � �����
@@ -174,7 +176,8 @@ SUFFIXES :=
 # ���������� � �����
 SYSTEMDRIVE = C:
 # ���������� � �����
-SESSIONNAME = Console
+SESSIONNAME = C 
+onsole
 # ���������� � �����
 PROCESSOR_REVISION = 1001
 # ���������� � �����
@@ -184,7 +187,7 @@ LANG = C
 # ���������� � �����
 PROCESSOR_LEVEL = 21
 # ���������� � �����
-VSCODE_PID = 10996
+VSCODE_PID = 6888
 # ���������� � �����
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 # variable set hash-table stats:
@@ -196,12 +199,11 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 
 # ��������
 
-# D:\flutter\bin (���� D:/flutter/bin, ����� ����������� 165391474 
-4): 9 ������,��� ������������ �����.
+# D:\flutter\bin (���� D:/flutter/bin, ����� ����������� 1653914744): 9 ������,��� ������������ �����.
 # C:\Users\astra\AppData\Local\Microsoft\WindowsApps (���� C:/Users/astra/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1653658475): 12 ������,��� ������������ �����.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (���� C:/Windows/System32/WindowsPowerShell/v1.0/, ����� ����������� 1617976699): 31 ������,��� ������������ �����.
 # C:\Windows\System32\Wbem (���� C:/Windows/System32/Wbem, ����� ����������� 1655329174): 155 ������,��� ������������ �����.
-# . (���� d:/Projects/fff, ����� ����������� 1655415686): 23 ������,��� ������������ �����.
+# . (���� d:/Projects/fff, ����� ����������� 1655417382): 23 ������,��� ������������ �����.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (���� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����� ����������� 1648422746): 10 ������,��� ������������ �����.
 # C:\Microsoft VS Code\bin (���� C:/Microsoft VS Code/bin, ����� ����������� 1655377890): 4 ������,��� ������������ �����.
 # C:\Windows\System32\OpenSSH\: ���������� �������� �������� ������� stat.
@@ -214,8 +216,8 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 # C:\Program Files\Git\cmd (���� C:/Program Files/Git/cmd, ����� ����������� 1643518745): 8 ������,��� ������������ �����.
 # C:\Windows\system32 (���� C:/Windows/system32, ����� ����������� 1655407625): 3046 ������,��� ������������ �����.
 
-# 3641 ������,��� impossibilities 
- in 16 directories.
+# 3641 ������,��� impossibilities i 
+n 16 directories.
 
 # Implicit Rules
 
@@ -236,8 +238,8 @@ all: compile link
 #  ������������ ����� ������� ������
 #  ���� �� ����������.
 #  ���� ��� ��������.
-#  ������ 
- ���� ��������� (����� ���� -q).
+#  ������ � 
+��� ��������� (����� ���� -q).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/2=0%
 
@@ -250,7 +252,7 @@ all: compile link
 # �� �������� �����:
 makefile:
 #  ������������ ����� ������� ������
-#  ����� ���������� ��������� 2022-06-17 00:41:15
+#  ����� ���������� ��������� 2022-06-17 01:09:42
 #  ���� ��� ��������.
 #  ������� ���������.
 # variable set hash-table stats:
@@ -301,10 +303,10 @@ compile:
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
-# strcache size: total = 4096 / max 
- = 4096 / min = 4096 / avg = 4096
+# strcache size: total = 4096 / max = 
+ 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# ������ ���� ������ Make ��������� Fri Jun 17 00:41:43 2022
+# ������ ���� ������ Make ��������� Fri Jun 17 09:36:29 2022
 
  

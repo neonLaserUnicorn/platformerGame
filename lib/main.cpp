@@ -22,7 +22,7 @@ int main()
             if (event.type == sf::Event::Closed)
                 window.close();
         }
-        player.move();
+        player.update();
         camera.update();
         window.setView(camera.getView());
         window.clear();

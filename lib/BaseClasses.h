@@ -4,12 +4,11 @@
 class Object
 {
 protected:
-    sf::Shape* _form;
     sf::Vector2f _pos;
 public:
     Object(){}
     sf::Vector2f getPosition(){return _pos;}
-    sf::Drawable& getSprite(){return *_form;}
+    virtual sf::Drawable& getSprite()=0;
     virtual void collide(Object* another) = 0;
 };
 

@@ -39,7 +39,6 @@ void Player::fall()
 
 void Player::move()
 {
-    fall();
     bool start_move = false;
     sf::Vector2f dpos = {0,0};
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::A))
@@ -64,5 +63,8 @@ void Player::move()
     _pos += dpos;
     _form.setPosition(_pos);
 }
-
-sf::Vector2f Player::getPosition(){return this->_pos;}
+void Player::update()
+{
+    fall();
+    move();
+}
