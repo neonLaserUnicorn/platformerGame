@@ -32,8 +32,8 @@ sf::Vector2f Camera::checkBoundries(sf::Vector2f newPos)
 {
     if(_left < _boundries.left)
         newPos.x = _boundries.left + _width;
-    // else if(_right > _boundries.left + _boundries.width)
-    //     newPos.x = _boundries.left + _boundries.width - _width;
+    else if(_right > _boundries.left + _boundries.width)
+        newPos.x = _boundries.left + _boundries.width - _width;
     if(_bot > _boundries.top + _boundries.height)
         newPos.y = _boundries.top + _boundries.height - _height;
     else if(_top < _boundries.top)

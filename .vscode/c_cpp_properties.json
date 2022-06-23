@@ -4,6 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/src/include",
                 "${workspaceFolder}/src/include"
             ],
             "defines": [
@@ -19,7 +20,6 @@
             "mergeConfigurations": false,
             "browse": {
                 "path": [
-                    //"${workspaceFolder}/**",
                     "${workspaceFolder}"
                 ],
                 "limitSymbolsToIncludedHeaders": true

@@ -1,7 +1,7 @@
 #pragma once
 #include "BaseClasses.h"
 
-class Platform:Object
+class Platform: public Object
 {
 private:
     sf::Vector2f _endPos;

@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# ���� ������ Make, ���������� Fri Jun 17 09:36:29 2022
+# ���� ������ Make, ���������� Thu Jun 23 15:53:29 2022
 
 # ����������
 
@@ -33,8 +33,7 @@ HOMEDRIVE = C:
 # Make-����
 CURDIR := d:/Projects/fff
 # �� ���������
-SHELL :=  
-C:/Program Files/Git/bin/sh.exe
+SHELL := C:/Program Files/Git/bin/sh.exe
 # ���������� � �����
 WINDIR = C:\Windows
 # ���������� � �����
@@ -48,19 +47,18 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 MAKEFILE_LIST :=  makefile
 # ���������� � �����
 TMP = C:\Users\astra\AppData\Local\Temp
-# ��������� 
-� � �����
+# ���������� � �����
 VSCODE_VERBOSE_LOGGING = true
 # ���������� � �����
 PROGRAMW6432 = C:\Program Files
 # ���������� � �����
 PROGRAMDATA = C:\ProgramData
 # ���������� � �����
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-90984621-0e07-43b0-b94f-5e27a97aef71-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e4cc8bdb-a796-4533-9031-ef6bf8768f5f-sock
 # ���������� � �����
 VSCODE_CWD = C:\Microsoft VS Code
 # ���������� � �����
-PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\astra\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Microsoft VS Code\bin;D:\flutter\bin;C:\Program Files\Git\bin;C:\Users\astra\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GnuWin32\bin;
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\astra\AppData\Local\Microsoft\WindowsApps;C:\msys64\mingw64\bin;C:\Microsoft VS Code\bin;D:\flutter\bin;C:\Program Files\Git\bin;C:\Users\astra\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Gradle\gradle-7.4.2\bin;
 # ���������� � �����
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # ���������� � �����
@@ -80,7 +78,7 @@ ELECTRON_RUN_AS_NODE = 1
 # ��������������
 %F = $(notdir $%)
 # ���������� � �����
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6888_NVSZCXAEWLOHDSUZ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4060_SOPRSWPYAMPISRNU
 # ���������� � �����
 VSCODE_PIPE_LOGGING = true
 # ���������� � �����
@@ -175,9 +173,9 @@ LC_ALL = C
 SUFFIXES := 
 # ���������� � �����
 SYSTEMDRIVE = C:
-# ���������� � �����
-SESSIONNAME = C 
-onsole
+# ������� 
+��� � �����
+SESSIONNAME = Console
 # ���������� � �����
 PROCESSOR_REVISION = 1001
 # ���������� � �����
@@ -187,7 +185,7 @@ LANG = C
 # ���������� � �����
 PROCESSOR_LEVEL = 21
 # ���������� � �����
-VSCODE_PID = 6888
+VSCODE_PID = 4060
 # ���������� � �����
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 # variable set hash-table stats:
@@ -200,24 +198,23 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-9OLNPHM
 # ��������
 
 # D:\flutter\bin (���� D:/flutter/bin, ����� ����������� 1653914744): 9 ������,��� ������������ �����.
-# C:\Users\astra\AppData\Local\Microsoft\WindowsApps (���� C:/Users/astra/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1653658475): 12 ������,��� ������������ �����.
+# C:\Users\astra\AppData\Local\Microsoft\WindowsApps (���� C:/Users/astra/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1655814569): 12 ������,��� ������������ �����.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (���� C:/Windows/System32/WindowsPowerShell/v1.0/, ����� ����������� 1617976699): 31 ������,��� ������������ �����.
 # C:\Windows\System32\Wbem (���� C:/Windows/System32/Wbem, ����� ����������� 1655329174): 155 ������,��� ������������ �����.
-# . (���� d:/Projects/fff, ����� ����������� 1655417382): 23 ������,��� ������������ �����.
+# . (���� d:/Projects/fff, ����� ����������� 1655985145): 23 ������,��� ������������ �����.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (���� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����� ����������� 1648422746): 10 ������,��� ������������ �����.
 # C:\Microsoft VS Code\bin (���� C:/Microsoft VS Code/bin, ����� ����������� 1655377890): 4 ������,��� ������������ �����.
 # C:\Windows\System32\OpenSSH\: ���������� �������� �������� ������� stat.
-# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (���� C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����� ����������� 1644502097): 5 ������,��� ������������ �����.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (���� C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����� ����������� 1655854316): 5 ������,��� ������������ �����.
 # C:\Windows (���� C:/Windows, ����� ����������� 1655329167): 115 ������,��� ������������ �����.
 # C:\Program Files\Git\bin (���� C:/Program Files/Git/bin, ����� ����������� 1643518633): 5 ������,��� ������������ ����� �� ������� ������.
 # C:\Program Files\Cloudflare\Cloudflare WARP\ (���� C:/Program Files/Cloudflare/Cloudflare WARP/, ����� ����������� 1654264550): 11 ������,��� ������������ �����.
 # C:\msys64\mingw64\bin (���� C:/msys64/mingw64/bin, ����� ����������� 1643382556): 207 ������,��� ������������ �����.
 # C:\Program Files (x86)\AMD\ATI.ACE\Core-Static: ���������� �������� �������� ������� stat.
 # C:\Program Files\Git\cmd (���� C:/Program Files/Git/cmd, ����� ����������� 1643518745): 8 ������,��� ������������ �����.
-# C:\Windows\system32 (���� C:/Windows/system32, ����� ����������� 1655407625): 3046 ������,��� ������������ �����.
+# C:\Windows\system32 (���� C:/Windows/system32, ����� ����������� 1655854316): 3046 ������,��� ������������ �����.
 
-# 3641 ������,��� impossibilities i 
-n 16 directories.
+# 3641 ������,��� impossibilities in 16 directories.
 
 # Implicit Rules
 
@@ -238,8 +235,7 @@ all: compile link
 #  ������������ ����� ������� ������
 #  ���� �� ����������.
 #  ���� ��� ��������.
-#  ������ � 
-��� ��������� (����� ���� -q).
+#  ������ ���� ��������� (����� ���� -q).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/2=0%
 
@@ -286,7 +282,6 @@ compile:
 # ^ := 
 # ��������������
 # ? := 
- 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/10=10%
 #  �������, ������� ������� ���������  (�� `makefile', ������ 4):
@@ -303,10 +298,9 @@ compile:
 
 # # of strings in strcache: 1
 # # of strcache buffers: 1
-# strcache size: total = 4096 / max = 
- 4096 / min = 4096 / avg = 4096
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# ������ ���� ������ Make ��������� Fri Jun 17 09:36:29 2022
+# ������ ���� ������ Make ��������� Thu Jun 23 15:53:29 2022
 
  

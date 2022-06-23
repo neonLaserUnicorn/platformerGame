@@ -11,6 +11,7 @@ public:
     sf::Vector2f getPosition(){return _pos;}
     virtual sf::Drawable& getSprite()=0;
     virtual void collide(Object* another) = 0;
+    sf::FloatRect hitbox(){return _hitbox;}
 };
 
 class Movable : public Object

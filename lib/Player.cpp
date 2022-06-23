@@ -13,12 +13,6 @@ Player::Player():
 void Player::fall()
 {
     bool endFalling = false;
-    sf::FloatRect botCollider = {
-        _form.getPosition().x,
-        _form.getRadius() * 2 + _form.getPosition().y,
-        _form.getRadius() * 2,
-        1.f
-    }; 
     for(int i = 0; i < objectsQuantity; ++i)
     {
         sf::FloatRect toIntersect = {
@@ -35,7 +29,7 @@ void Player::fall()
         }
     }
     if(_fallSpeed < _maxFallSpeed)
-        _fallSpeed += 0.01f;
+        _fallSpeed += 0.01f;    
 }
 
 void Player::move()
