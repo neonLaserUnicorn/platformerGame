@@ -10,5 +10,5 @@ public:
     Platform(){};
     Platform(sf::Vector2f pos, sf::Vector2f endPos);
     sf::Drawable& getSprite(){return _form;}
-    void collide(Object*){}
+    void collide(Object*);
 };

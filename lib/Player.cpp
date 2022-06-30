@@ -10,27 +10,6 @@ Player::Player():
     _speed = 0.f;   
 }
 
-void Player::fall()
-{
-    bool endFalling = false;
-    for(int i = 0; i < objectsQuantity; ++i)
-    {
-        sf::FloatRect toIntersect = {
-            mapObjects[i].startX,
-            mapObjects[i].startY,
-            mapObjects[i].endX - mapObjects[i].startX,
-            1.f
-        };
-        endFalling = _hitbox.intersects(toIntersect) && _hitbox.top+_hitbox.height -1 <= toIntersect.top;
-        if(endFalling && _fallSpeed >=0)
-        {
-            _fallSpeed = 0;
-            return;
-        }
-    }
-    if(_fallSpeed < _maxFallSpeed)
-        _fallSpeed += 0.01f;    
-}
 
 void Player::move()
 {
@@ -58,7 +37,7 @@ void Player::move()
     _pos += dpos;
     _form.setPosition(_pos);
 }
-void Player::update()
+void Player::update(const std::list<Object*>& objects)
 {
     _hitbox = {
         _pos.x,
@@ -66,6 +45,14 @@ void Player::update()
         _form.getRadius() * 2,
         _form.getRadius() * 2,
     };
-    fall();
+    fall(objects);
     move();
+}
+
+void Player::collide(Object* another)
+{
+    if(another->hitbox().intersects(this->hitbox()))
+    {
+        another->collide(this);
+    }
 }
